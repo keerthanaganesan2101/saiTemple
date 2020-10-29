@@ -1,0 +1,55 @@
+.screen{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.sameLine{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+
+}
+
+.icon{
+    font-size: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 0%;
+    width: 100%;
+    justify-content: center;
+}
+.contact{
+    width: 90%;
+    margin: auto;
+    color: gainsboro;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.map{
+    text-align: center;
+    margin: 20px;
+}
+
+.map iframe{
+    border-radius: 5px;
+
+}
+
+
+
+@media (max-width : 500px){
+    .sameLine h5{
+       
+        font-size: 10px;
+    
+    }
+
+
+}
+

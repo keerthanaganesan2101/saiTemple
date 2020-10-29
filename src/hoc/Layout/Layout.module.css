@@ -1,0 +1,212 @@
+.Content {
+    margin-top: 110px;
+}
+
+@import url("https://use.typekit.net/xko3lvq.css");
+
+
+.image{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+   /* margin-left: 45%;
+    margin-right: 45%; */
+}
+
+.title{
+    float: left;
+    margin: 20px;
+    font-family: adobe-garamond-pro, serif;
+    font-size: 25px;
+font-weight: 600;
+
+font-style: normal;
+}
+
+.navbar{
+   display: flex;
+   background: #f7c6a1;
+   flex-direction: row;
+   justify-content: center;
+   margin-bottom: 5px;
+}
+
+.nav{
+    display: block;
+   padding: 15px;
+    font-size: 15px;
+    background-color: #f7c6a1;
+    color: brown;
+   
+}
+
+
+
+
+.nav:hover{
+    background: #EE4E34;
+    color:white;
+    border: 1px solid #f7c6a1;
+    border-radius: 5px;
+}
+
+
+
+.active{
+    text-decoration: underline;
+    background: #EE4E34;
+    color:white;
+    border: 1px solid #f7c6a1;
+    border-radius: 5px;
+}
+
+.subHeader{
+    text-align: center;
+    font-size: 12px;
+   
+}
+
+
+
+.logoLeft{
+    width: 90px;
+    height: 70px;
+    display: block;
+   float: left;
+    margin: 10px;
+    margin-bottom: 0px;
+    /* border-radius: 50%; */
+   /* margin-left: 45%;
+    margin-right: 45%; */
+}
+
+@media(min-width: 1025px){
+    .Content{
+        margin-top: 110px;
+    }
+    .title{
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+    }
+    .subHeader{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width:895px){
+    .nav{
+        display: block;
+        padding: 15px;
+      font-size: 1.2vw;
+         background-color: #f7c6a1;
+         color: brown;
+    }
+    .subHeader{
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 780px){
+    .Content{
+        margin-top: 110px;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    .title{
+        float: left;
+        margin: 20px;
+        font-size: 20px;
+    }
+    .subHeader{
+        text-align: center;
+        font-size: 10px;
+    }
+    .logoLeft{
+        width: 70px;
+        height: 70px;
+        display: block;
+       float: left;
+        margin: 10px;
+        margin-bottom: 0px;
+        /* border-radius: 50%; */
+       /* margin-left: 45%;
+        margin-right: 45%; */
+    }
+}
+
+@media (max-width: 499px){
+    .Content{
+        margin-top: 130px;
+    }
+    .image{
+        width: 150px;
+        height: 150px;
+        opacity: 0.5;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logoLeft{
+        width: 50px;
+        height: 40px;
+        display: block;
+       float: left;
+        opacity: 0.9;
+       /* margin-left: 45%;
+        margin-right: 45%; */
+    }
+
+    .title{
+        float: left;
+        margin: 10px;
+        font-size: 20px;
+    }
+    .subHeader{
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 412px){
+    .Content{
+        margin-top: 130px;
+    }
+    .image{
+        width: 150px;
+        height: 150px;
+        opacity: 0.5;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logoLeft{
+        width: 40px;
+        height: 35px;
+        display: block;
+       float: left;
+        opacity: 0.9;
+       /* margin-left: 45%;
+        margin-right: 45%; */
+    }
+
+    .title{
+        float: left;
+        margin-top: 20px;
+      
+        font-size: 4.1vw;
+    }
+    .subHeader{
+        font-size: 8px;
+    }
+   
+}
+

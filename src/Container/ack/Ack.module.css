@@ -1,0 +1,5 @@
+.para{
+    font-size: calc((.2em + .4vmin) + (.2em + .4vmax));
+    text-align: justify;
+    color: brown;
+}

@@ -1,0 +1,51 @@
+.imageContainer{
+    height: 600px;
+    border-radius: 10px;
+
+}
+.marque{
+    -moz-transform:translateX(100%);
+       -webkit-transform:translateX(100%);	
+       transform:translateX(100%);
+       -moz-animation: example1 15s linear infinite;
+       -webkit-animation: example1 15s linear infinite;
+       animation: example1 15s linear infinite
+}
+
+@-moz-keyframes example1 {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes example1 {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes example1 {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
+
+ .marque:hover {
+    animation-play-state: paused
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}

@@ -1,0 +1,67 @@
+ li{
+    color:brown
+}
+
+.li{
+    line-height: 25px;
+}
+
+.marque{
+    -moz-transform:translateY(100%);
+       -webkit-transform:translateY(100%);	
+       transform:translateY(100%);
+       -moz-animation: example1 15s linear infinite;
+       -webkit-animation: example1 15s linear infinite;
+       animation: example1 15s linear infinite
+}
+
+@-moz-keyframes example1 {
+    0%   { -moz-transform: translateY(100%); }
+    100% { -moz-transform: translateY(-100%); }
+   }
+   @-webkit-keyframes example1 {
+    0%   { -webkit-transform: translateY(100%); }
+    100% { -webkit-transform: translateY(-100%); }
+   }
+   @keyframes example1 {
+    0%   { 
+    -moz-transform: translateY(100%); /* Firefox bug fix */
+    -webkit-transform: translateY(100%); /* Firefox bug fix */
+    transform: translateY(100%); 		
+    }
+    100% { 
+    -moz-transform: translateY(-100%); /* Firefox bug fix */
+    -webkit-transform: translateY(-100%); /* Firefox bug fix */
+    transform: translateY(-100%); 
+    }
+   }
+
+ .marque:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+/* @keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}  */
+
+@media (min-width: 960px){
+    .screen{
+        height: 360px;
+        max-height: 860px;
+    }
+}
+@media (min-width: 1060px){
+    .screen{
+        height: 310px;
+        max-height: 780px;
+    }
+}
+
+@media (max-width: 960px){
+    .screen{
+        height: 300px;
+        max-height: 860px;
+    }
+}
